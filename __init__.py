@@ -34,7 +34,7 @@ client = Client(
 For more framework integration examples (such as Telethon or TeleBot),
 please check the `teleconf.examples` module
 
-Made by NeoLine (https://github.com/iineolineii) in 2025
+Copyright (c) 2025 NeoLine
 """
 import json
 import re

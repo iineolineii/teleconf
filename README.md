@@ -66,37 +66,37 @@ config = Config(
 
 **Arguments:**
 
-* `config_file` (`str | Path`, optional):
+* `config_file` (`str | Path`, *optional*):
 
     Path to the JSON file storing configuration values.
 
     Defaults to `"config.json"`.
 
-* `request_bot_token` (`bool`, optional):
+* `request_bot_token` (`bool`, *optional*):
 
     Prompt for bot token if missing or when `force_update` is `True`.
 
     Defaults to `True`.
 
-* `request_api_id` (`bool`, optional):
+* `request_api_id` (`bool`, *optional*):
 
     Prompt for API ID if missing or when `force_update` is `True`.
 
     Defaults to `False`.
 
-* `request_api_hash` (`bool`, optional):
+* `request_api_hash` (`bool`, *optional*):
 
     Prompt for API Hash if missing or when `force_update` is `True`.
 
     Defaults to `False`.
 
-* `request_phone_number` (`bool`, optional):
+* `request_phone_number` (`bool`, *optional*):
 
     Prompt for phone number if missing or when `force_update` is `True`.
 
     Defaults to `False`.
 
-* `force_update` (`bool`, optional):
+* `force_update` (`bool`, *optional*):
 
     Force re-prompting even if the config file already contains values.
 
